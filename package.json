@@ -1,0 +1,23 @@
+{
+  "name": "qdb_slack_integration",
+  "version": "1.0.0",
+  "description": "QDB Slack Integration",
+  "main": "./server/index.js",
+  "scripts": {
+    "start": "node ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Liz Rodriguez",
+  "license": "ISC",
+  "homepage": "https://lizrodriguez.io",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.4",
+    "qdb-api": "^1.0.2"
+  }
+}
