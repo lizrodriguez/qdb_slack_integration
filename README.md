@@ -4,6 +4,12 @@ Get a random quote from http://www.qdb.us/ and to post to a slack channel
 
 Using https://www.npmjs.com/package/qdb-api for Quotes Database API
 
+## To Run
+* Activate incoming webhooks on your [Slack workspace](https://api.slack.com/incoming-webhooks)
+* Add a webhook url to a particular Slack channel
+* add the HOOK_URL to your local environment variables file
+* Go to http://localhost:3000/quote to see your random quote in the selected Slack channel
+
 ## APIs available
 
 * Get a random quote
